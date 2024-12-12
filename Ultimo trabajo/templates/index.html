@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <section class="main__home home" id="Prueba"></section>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="../static/css/style.css" />
+    <title>climate change</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="header__nav main-nav">
+        <ul class="main-nav__list main-list">
+          <li class="main-list__item list-item">
+            <a class="list-item__link" href="#about">¿Who is that?</a>
+          </li>
+          <li class="main-list__item list-item">
+            <a class="list-item__link" href="#who">¿How can I help?</a>
+          </li>
+          <li class="main-list__item list-item">
+            <a class="list-item__link" href="#skills">Web's</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+      <!-- Vista previa -->
+        <h1 class="home__title">Climate change</h1>
+        <p class="home__subtitle">Act now, don't be slow. Help the Earth, let's go!</p>
+        <div style="position: relative; height: 300px; width: 300px;">
+          <img
+          src="static\img\CamC.png" 
+          alt="CamC" 
+          width="700"
+          height="560"
+          style="position: absolute; top: -30px; left: 320px;">
+        </div>
+  </section>
+
+      <!-- Acerca de mí -->
+      <section class="main__about about" id="about">
+        <h2 class="about__title">¿Who is that?</h2>
+        <div class="about__info info-block">
+          <p class="info-block__text">
+            Climate change is when the Earth's climate starts to change in strange ways and more quickly than usual. Normally, the climate changes very slowly, but now it is changing much faster. This is happening because people are doing things that release gases into the air, like when we use cars that burn gasoline or when we cut down a lot of trees. These gases create a kind of "blanket" in the air that traps the sun's heat, and that makes the Earth warmer.
+          </p>
+          <p class="info-block__text">
+            When the Earth gets warmer than it should, strange things happen. For example, in some places it gets much warmer, and in others there are heavier rains or droughts (when it doesn't rain at all). There may also be more big storms or the ice at the poles melts. All of this affects animals, plants and people, because things no longer work the way they used to. That's why it's important to take care of the planet and make changes so that it doesn't keep getting warmer.
+          </p>
+      </section>
+          <img
+            class="info-block__img"
+            src="static\img\CC.png"
+            alt="CC"
+            width="500"
+            height="300"
+            style="position: absolute; top: 1310px; left: 390px;">
+          />
+        </div>
+        <section class="main__about about" id="who">
+          <div class="about__info info-block">
+            <p class="info-block__text">
+              Humans can make a significant contribution to mitigating climate change by adopting sustainable habits and policies that reduce our greenhouse gas emissions and protect the environment. Key actions include reducing the use of fossil fuels through public transport, cycling, electric vehicles or walking, as well as switching to renewable energy sources such as solar or wind, and improving the energy efficiency of our homes and devices.
+            </p>
+            <p class="info-block__text">
+              Protecting and restoring nature is another crucial aspect. Planting trees, caring for ecosystems such as forests and oceans, and restoring degraded areas are effective ways to absorb carbon dioxide and combat global warming. At the community and global level, education and awareness-raising play an important role, as does political participation, supporting leaders and laws that prioritize the fight against climate change.
+            </p>
+            <p class="info-block__text">
+              Finally, a change in our mindset is needed. Valuing sustainability, acting with a long-term perspective and collaborating collectively are fundamental to preserving the planet for future generations. Every small individual action, added to global efforts, can make a big difference in the fight against climate change.
+            </p>
+            <img
+                src="static\img\GC.jpg"
+                alt="GC"
+                width="550"
+                height="550"
+                style="position: absolute; top: 300px; left: 380px;">
+        </section>
+          </div>
+      <!-- Sección de competencias -->
+      <section class="main__skills skills" id="skills">
+        <h2 class="skills__title">Webs</h2>
+        <form action="/" method="POST">
+          <ul class="skills__list skills-list">
+
+            <li class="skills-list__skill skill">
+              <img
+                class="skill__img"
+                src="static\img\ChileVerde.png"
+                alt="ChileVerde"
+                width="150"
+                height="150"
+              />
+              <span class="skill__info">Chile Verde Foundation promotes sustainability in various areas.</span>
+              <input class="skill__button" type="button" value="ChileVerde" id="ChileVerde" >
+            </li>
+
+            <li class="skills-list__skill skill">
+              <img
+                class="skill__img"
+                src="static\img\Eco.png"
+                alt="Eco"
+                width="150"
+                height="150"
+              />
+              <span class="skill__info">EcologíaVerde offers advice on recycling, climate change and sustainability.</span>
+              <input class="skill__button" type="button" value="EcologíaVerde" id="EcologíaVerde">
+            </li>
+
+            <li class="skills-list__skill skill">
+              <img
+                class="skill__img"
+                src="static\img\WWF.png"
+                alt="WWF"
+                width="150"
+                height="150"
+              />
+              <span class="skill__info">WWF protects communities, wildlife and habitats in nearly 100 countries.</span>
+              <input class="skill__button" type="button" value="WWF" id="WWF">
+            </li>
+
+          </ul>
+        </form>
+      </section>
+
+      <script>
+        document.getElementById("ChileVerde").addEventListener("click", function() {
+          window.location.href = "https://www.fundacionchileverde.cl/";
+        });
+
+        document.getElementById("EcologíaVerde").addEventListener("click", function() {
+          window.location.href = "https://www.ecologiaverde.com/";
+        });
+
+        document.getElementById("WWF").addEventListener("click", function() {
+          window.location.href = "https://www.worldwildlife.org/";
+        });
+      </script>
+      </section>
+    </footer>
+  </body>
+</html>
